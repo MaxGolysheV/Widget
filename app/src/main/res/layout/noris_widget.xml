@@ -1,0 +1,18 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Widget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Widget.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/wbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:text="ПОСМОТРЕТЬ ШУТКУ"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:layout_columnSpan="2"/>
+</GridLayout>
